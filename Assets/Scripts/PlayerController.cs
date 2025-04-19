@@ -29,13 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         if (gameOver) return; // Al utilizar la sentencia return hacemos que el codigo no continue si no que retorne al flujo que lo llamo.
 
-        // Podemos obtener el valor del input Horizontal configurado en el Input Manager. valores posibles -1,0,1
-        // Usamos Time.deltaTime para fijar el movimiento al tiempo y no a la taza de fps
-        float movInputX = Input.GetAxisRaw("Horizontal");     
-        transform.position += new Vector3(movInputX * moveSpeed * Time.deltaTime, 0f, 0f);
-        // Clamp Pos X
-        float clampPosX = Mathf.Clamp(transform.position.x, -xLimitMove, xLimitMove);
-        transform.position = new Vector3(clampPosX, transform.position.y, transform.position.z);
+        
     }
 
     public bool BrickDestroyed() 
@@ -70,5 +64,10 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(0, transform.position.y, 0); // Movemos al player al centro de nuevo
             Instantiate(ballPrefab, new Vector3(0, -7.5f, 0), Quaternion.identity); // Instancia una nueva Ball
         }
+    }
+
+    public void PlayerDead() 
+    {
+        Debug.Log("Se murioooo");
     }
 }
