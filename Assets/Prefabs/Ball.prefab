@@ -150,7 +150,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca50a18f2f12ff04f978b7d3289537ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialForce: 7
+  ballSpeed: 7
+  move: 0
+  moveVector: {x: 1, y: 1, z: 0}
 --- !u!96 &575103980798538961
 TrailRenderer:
   serializedVersion: 3

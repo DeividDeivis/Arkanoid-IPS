@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 124348522}
   m_Layer: 0
   m_Name: Up
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 222890689}
   m_Layer: 0
   m_Name: Right
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3485,7 +3485,7 @@ GameObject:
   - component: {fileID: 1985984235}
   m_Layer: 0
   m_Name: Left
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4081,6 +4081,14 @@ PrefabInstance:
     - target: {fileID: 478888396565857720, guid: 106cd96cf92e7e84c839b58d684af996, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5939379986878459885, guid: 106cd96cf92e7e84c839b58d684af996, type: 3}
+      propertyPath: move
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5939379986878459885, guid: 106cd96cf92e7e84c839b58d684af996, type: 3}
+      propertyPath: ballSpeed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8284892588455485067, guid: 106cd96cf92e7e84c839b58d684af996, type: 3}
       propertyPath: m_Name
