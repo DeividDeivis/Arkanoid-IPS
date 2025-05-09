@@ -24,7 +24,7 @@ public class BallController : MonoBehaviour
 
     private void Update()
     {
-        if (!move) return;
+        if (!move) return; // Si move es igual a falso no se mueve.
 
         transform.position += moveVector * ballSpeed * Time.deltaTime;
     }
