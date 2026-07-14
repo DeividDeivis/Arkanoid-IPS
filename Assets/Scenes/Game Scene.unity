@@ -342,6 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 200
   destroyPoints: 0
 --- !u!1 &222890687
 GameObject:
@@ -790,6 +791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 100
   destroyPoints: 0
 --- !u!1 &410087039
 GameObject:
@@ -1137,6 +1139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 50
   destroyPoints: 0
 --- !u!1 &588920484
 GameObject:
@@ -1259,6 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 200
   destroyPoints: 0
 --- !u!1 &832575517
 GameObject:
@@ -1507,6 +1511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 100
   destroyPoints: 0
 --- !u!1 &1004048503
 GameObject:
@@ -1629,6 +1634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 200
   destroyPoints: 0
 --- !u!1 &1053862406
 GameObject:
@@ -1751,6 +1757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 100
   destroyPoints: 0
 --- !u!1 &1098170743
 GameObject:
@@ -1873,6 +1880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 100
   destroyPoints: 0
 --- !u!1 &1233465022
 GameObject:
@@ -1995,6 +2003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 200
   destroyPoints: 0
 --- !u!1 &1240704247
 GameObject:
@@ -2253,6 +2262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 50
   destroyPoints: 0
 --- !u!1 &1316005643
 GameObject:
@@ -2375,6 +2385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 50
   destroyPoints: 0
 --- !u!1 &1366609182
 GameObject:
@@ -2497,6 +2508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 200
   destroyPoints: 0
 --- !u!1 &1402392052
 GameObject:
@@ -2806,6 +2818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 200
   destroyPoints: 0
 --- !u!1 &1536521085
 GameObject:
@@ -2928,6 +2941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 50
   destroyPoints: 0
 --- !u!1 &1589674940
 GameObject:
@@ -3050,6 +3064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 100
   destroyPoints: 0
 --- !u!1 &1666458798
 GameObject:
@@ -3350,6 +3365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 50
   destroyPoints: 0
 --- !u!1 &1882876247
 GameObject:
@@ -3472,6 +3488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 50
   destroyPoints: 0
 --- !u!1 &1985984233
 GameObject:
@@ -3862,6 +3879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec0900c5c02cae438273f50844ecd5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 100
   destroyPoints: 0
 --- !u!1 &2094202032
 GameObject:

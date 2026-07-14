@@ -14,6 +14,16 @@ public class PlayerController : MonoBehaviour
     private UIController m_UI;
     [SerializeField] private GameObject ballPrefab;
 
+    private void Awake()
+    {
+        BrickController[] bricksInLevel = FindObjectsByType<BrickController>(FindObjectsSortMode.InstanceID);
+        foreach (var brick in bricksInLevel)
+        {
+            brick.OnDestroy += SumScore;
+            brick.OnDestroy -= SumScore;
+        }
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -71,4 +81,6 @@ public class PlayerController : MonoBehaviour
             Instantiate(ballPrefab, new Vector3(0, -7.5f, 0), Quaternion.identity); // Instancia una nueva Ball
         }
     }
+
+    private void SumScore(int score) { playerScore += score; }
 }
